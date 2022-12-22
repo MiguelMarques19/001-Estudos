@@ -6,11 +6,14 @@
     color: white;
 }
     main{
-        background-color: #bd5f2d;
+        background-color: #bd5f25;
         text-align: center;
         margin: -8px -8px -8px -8px;
+        box-shadow: 8px 8px 8px 8px #bd5f2577;
         
     }
+
+    
 
     body{
         background-color: #bd683b;
@@ -19,28 +22,35 @@
     h1{
         font-size: 50px;
         text-decoration-line: underline;
+        text-align: center;
+        color:whitesmoke;
     }
 
     h2{
         font-size: 30px;
+        text-align: center;
+        color:whitesmoke;
     }
 
     p{
         font-size: 20px;
+        color:whitesmoke;
     }
 
     div > p {
         display: none;
+        text-align: center;
     }
 
     div:hover > p {
         display: block;
         color: white;
-        
         text-align: center;
         width: 300px;
     }
 
     div:hover {
         color:#D95732;
+   
     }
+
