@@ -15,7 +15,32 @@
     body{
         background-color: #bd683b;
     }
+    
+    h1{
+        font-size: 50px;
+        text-decoration-line: underline;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+
+    p{
+        font-size: 20px;
+    }
 
     div > p {
-        background-color: ;
+        display: none;
+    }
+
+    div:hover > p {
+        display: block;
+        color: white;
+        
+        text-align: center;
+        width: 300px;
+    }
+
+    div:hover {
+        color:#D95732;
     }
