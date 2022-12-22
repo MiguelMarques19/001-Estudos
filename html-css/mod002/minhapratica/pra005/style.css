@@ -3,58 +3,19 @@
 * {
     font-family: 'Alegreya';
     /*height: 100%;*/
+    color: white;
 }
+    main{
+        background-color: #bd5f2d;
+        text-align: center;
+        margin: -8px -8px -8px -8px;
+        
+    }
 
     body{
-        background-image: linear-gradient(to right,  #eebc9a, #f1a686 );
-    }
-
-    main{
-        background-color: #d89672;
-        border-radius: 10px;
-        box-shadow: 5px 5px 15px rgba(136, 109, 93, 0.616);
-        width: 600px;
-        padding: 10px;
-        margin:auto;
-    }
-
-    h1{
-        color: #4f4886;
-        text-align: center;
-        text-shadow: 1px 1px 2px rgba(129, 77, 5, 0.726)
-    }
-
-    h2{
-        color: #887aee;
-    }
-
-    p{
-        color:black;
-        text-align: justify;
-    }
-
-    .curiosidades{
-        
-        font-family:'Alegreya';
-        text-align:right;
-        text-align:justify;
-        width: 400px;
-        font:400 25px 'Alegreya';
+        background-color: #bd683b;
     }
 
     div > p {
-        display: none;
+        background-color: ;
     }
-
-    div:hover > p {
-        display: block;
-        color: whitesmoke;
-        
-        text-align: center;
-        width: 300px; 
-    }
-
-    div:hover{
-        color:red;
-    }
-    
