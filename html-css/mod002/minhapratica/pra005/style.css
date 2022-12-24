@@ -1,8 +1,6 @@
 @charset "UTF-8";
 
-* {
-    color: white;
-}
+
 
 
 header {
@@ -56,22 +54,9 @@ h2 {
     width: 50%;
     margin: 2em auto;
     font-size: 25px;
+    font-family: 'La Belle Aurore', cursive;
 }
 
-
-.negrito {
-    font-weight: bolder;
-    font-size: 17px;
-    text-decoration: none;
-    text-align: end;
-    color:#421F0C;
-    font-family: 'Roboto', sans-serif;
-}
-
-.desenvolvido {
-    color:#3D2213;
-    font-family: 'Roboto', sans-serif;
-}
 
 footer{
     background-color: #703c21;
@@ -82,5 +67,17 @@ footer{
     box-shadow: 5px 5px 5px 5px #773d1dcb;
     font-family: 'Roboto', sans-serif;
     font-weight: bolder;
-    text-shadow: black 0.1em 0.1em 0.1em;
+    text-shadow: rgba(0, 0, 0, 0.486) 0.1em 0.1em 0.1em;
+}
+
+footer > h1 {
+    font-weight: bolder;
+    font-size: 17px;
+    text-decoration: none;
+    text-align: end;
+    color:#421F0C;
+}
+
+footer > p {
+    color:#3D2213;
 }
