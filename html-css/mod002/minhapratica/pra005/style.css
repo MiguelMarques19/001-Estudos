@@ -1,8 +1,6 @@
 @charset "UTF-8";
 
 * {
-    font-family: 'Alegreya';
-    /*height: 100%;*/
     color: white;
 }
 
@@ -11,11 +9,20 @@ header {
     background-color: #bd5f25;
     text-align: center;
     margin: -8px -8px -8px -8px;
-    box-shadow: 8px 8px 8px 8px #bd5f25b7;
+    box-shadow: 8px 8px 8px 8px #bd5f25d2;
 }
 
+.tipo {
+    color:white;
+    text-shadow: black 0.2em 0.2em 0.4em;
+    
+}
 
-main {}
+main {
+
+   
+}
+
 
 body {
     background-color: #bd683b;
@@ -54,5 +61,26 @@ h2 {
 
 .negrito {
     font-weight: bolder;
+    font-size: 17px;
+    text-decoration: none;
+    text-align: end;
+    color:#421F0C;
+    font-family: 'Roboto', sans-serif;
 }
 
+.desenvolvido {
+    color:#3D2213;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer{
+    background-color: #703c21;
+    color:rgb(233, 0, 0);
+    text-align: end;
+    padding: 1px;
+    margin: -8px;
+    box-shadow: 5px 5px 5px 5px #773d1dcb;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    text-shadow: black 0.1em 0.1em 0.1em;
+}
