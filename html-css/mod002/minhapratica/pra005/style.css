@@ -34,43 +34,25 @@ h2 {
     color: whitesmoke;
 }
 
-p {
-    font-size: 20px;
-    text-align: jus;
-    color: whitesmoke;
-    align-content: center;
-    
-
-}
 
 .mae:hover .filho{
     display: block;
 
 }
 .title{
-    color: #D95732;
+    color: whitesmoke;
+    margin: auto auto auto auto;
 }
 
 .filho{
     display: none;
     width: 50%;
     margin: 2em auto;
+    font-size: 25px;
 }
 
-/*div>p {
-    display: none;
-}
-
-div:hover>p {
-    display: block;
-
-}
-
-div:hover {
-    
-
-}*/
 
 .negrito {
     font-weight: bolder;
 }
+
