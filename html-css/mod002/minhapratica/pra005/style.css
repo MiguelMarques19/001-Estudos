@@ -1,8 +1,5 @@
 @charset "UTF-8";
 
-
-
-
 header {
     background-color: #bd5f25;
     text-align: center;
@@ -14,11 +11,6 @@ header {
     color:white;
     text-shadow: black 0.2em 0.2em 0.4em;
     
-}
-
-main {
-
-   
 }
 
 
@@ -46,7 +38,9 @@ h2 {
 }
 .title{
     color: whitesmoke;
-    margin: auto auto auto auto;
+    margin: 0px auto;
+    height: 50px;
+    width: 500px;
 }
 
 .filho{
@@ -55,6 +49,7 @@ h2 {
     margin: 2em auto;
     font-size: 25px;
     font-family: 'La Belle Aurore', cursive;
+    
 }
 
 
