@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+
+
 div#botao {
     width: 300px;
     height: 300px;
@@ -10,7 +12,7 @@ div#botao {
     justify-content: center;
 }
 
-div:hover{
+div#botao:hover{
     background-color: aqua;
 }
 
@@ -28,3 +30,64 @@ button{
 button:hover{
     background-color: red;
 }
+
+div#cro{
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div#cro:hover{
+    background-color: aqua;
+}
+
+div#cro > button {
+    font-size: 18px;
+    font-weight: 600;
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+div#cro > button:hover{
+    background-color: red;
+}
+
+div#cro > div.filho {
+    background-color: red;
+}
+
+.filho{
+    
+    width: 50%;
+    margin: 2em auto;
+    font-size: 25px;
+}
+
+
+.mae:hover .filho{
+    display:block;
+
+}
+
+.title{
+    color: rgb(252, 0, 0);
+    margin: auto auto auto auto;
+    cursor: pointer;
+}
+
+.filho{
+    display: none;
+    width: 50%;
+    margin: 2em auto;
+    font-size: 25px;
+    font-family: 'La Belle Aurore', cursive;
+}
+
