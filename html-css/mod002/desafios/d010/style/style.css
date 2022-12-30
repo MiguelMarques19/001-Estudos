@@ -20,7 +20,7 @@
   --cor4: #1a5c37;
   --cor5: #063d1e;
 
-  --fonte-padrao: Arial, Verdana, Helvetica. sans-serif;
+  --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
   --fonte-destaque: 'Bebas Neue', cursive;
   --fonte-android: 'Android', cursive;
 }
@@ -28,6 +28,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: var(--fonte-padrao);
 }
 
 body {
@@ -53,15 +54,35 @@ nav {
 }
 
 main {
+
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
     background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.445);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 main h1 {
   color: var(--cor5);
   font-family: var(--fonte-android);
 }
+
 main h2 {
     font-family: var(--fonte-android);
+}
+
+main img{
+    width: 100%;
+}
+
+main img.pequena{
+    width: 50%;
+    display: block;
+    margin: auto;
 }
 
 footer {
