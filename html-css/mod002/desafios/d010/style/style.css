@@ -53,6 +53,7 @@ header > h1 {
   color: white;
   font-family: var(--fonte-destaque);
   margin-bottom: 20px;
+  font-weight: normal;
   font-size: 3em;
   text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
 }
@@ -104,6 +105,25 @@ main {
 main h1 {
   color: var(--cor5);
   font-family: var(--fonte-android);
+  font-weight: normal;
+  font-size: 1.8em;
+}
+
+div.video{
+    background-color: var(--cor5);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 59%;
+    position: relative;
+
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
 
 main h2 {
@@ -112,6 +132,7 @@ main h2 {
     font-size: 1.3em;
     background-image: linear-gradient(to right, var(--cor1), transparent);
     text-indent: 8px;
+    font-weight: normal;
 }
 
 main p{
