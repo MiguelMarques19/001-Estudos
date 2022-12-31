@@ -1,10 +1,7 @@
 @charset "UTF-8";
 
 header {
-    background-color: #bd5f25;
-    text-align: center;
-    margin: -8px -8px -8px -8px;
-    box-shadow: 8px 8px 8px 8px #bd5f25d2;
+    
 }
 
 .tipo {
@@ -13,6 +10,12 @@ header {
     
 }
 
+main img {
+    background-color: #bd5f25;
+    text-align: center;
+    margin: -8px -8px -8px -8px;
+    box-shadow: 8px 8px 8px 8px #bd5f25d2;
+}
 
 body {
     background-color: #bd683b;
