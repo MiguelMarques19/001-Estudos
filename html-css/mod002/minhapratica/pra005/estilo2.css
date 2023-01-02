@@ -2,10 +2,11 @@
 
 body{
     background-color: #bd683b;
+    background-image: linear-gradient(to bottom, #d1804e, #bd683b, #914a27af);
 }
 
 header{
-    background-image: linear-gradient(to bottom, #d1804e, #bd683b);
+    
     margin: 8px -9px 10px -8px;
     
 }
@@ -30,10 +31,11 @@ header div{
 nav{
     padding: 30px;
     text-align: center;
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.411);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.411);
     background-color: #e486537c;
     border-radius: 5px;
     margin: 10px;
+    
 }
 
 nav a{
@@ -42,6 +44,8 @@ nav a{
     text-decoration: none;
     color:whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.397);
 }
 
 nav a:hover{
@@ -69,16 +73,28 @@ main h1{
 main h2{
     color: black;
     font-size: 2em;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.219);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.425);
 }
 
 main p{
     color: black;
-    font-size: 1.3em;
+    font-size: 1.4em;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.301);
+    text-align: justify;
     
 }
 
 footer{
     font-family: 'roboto', sans-serif;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover{
+    color:white;
+    text-decoration: underline;
 }
