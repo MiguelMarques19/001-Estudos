@@ -6,21 +6,24 @@ body{
 
 header{
     background-image: linear-gradient(to bottom, #d1804e, #bd683b);
-    margin: 8px -9px 10px 0px;
+    margin: 8px -9px 10px -8px;
+    
 }
 
 header div{
-    background-color: red;
-    
+    padding-top: 20px;
+    padding-left: 26px;
+    padding-bottom: 10px;
 }
 
 .logo{
     text-align:left;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.192);
+    
     max-width: 500px;
     max-height: 500px;
     margin-top: -8px;
     margin-left: -8px;
+    
     
 }
 
@@ -28,12 +31,17 @@ nav{
     padding: 30px;
     text-align: center;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.411);
+    background-color: #e486537c;
+    border-radius: 5px;
+    margin: 10px;
 }
 
 nav a{
-    background-color: green;
+    padding: 5px;
+    background-color: #c46b33c4;
     text-decoration: none;
     color:whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 nav a:hover{
