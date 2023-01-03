@@ -15,16 +15,15 @@ header div{
     padding-top: 20px;
     padding-left: 26px;
     padding-bottom: 10px;
+    
 }
 
 .logo{
-    text-align:left;
-    
-    max-width: 500px;
+    text-align: center;
+    max-width: auto; /* centralizar */
     max-height: 500px;
     margin-top: -8px;
     margin-left: -8px;
-    
     
 }
 
@@ -51,7 +50,7 @@ nav a{
 
 nav a:hover{
     text-decoration: underline;
-    color: white;
+    color: rgb(126, 126, 250);
 
 }
 
@@ -80,7 +79,7 @@ main h2{
 main p{
     color: black;
     font-size: 1.4em;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.301);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.178);
     text-align: justify;
     
 }
@@ -88,14 +87,20 @@ main p{
 footer{
     font-family: 'roboto', sans-serif;
     text-align: center;
+    background-color: #c08b6f;
+    padding: 3px;
+    color: white;
+    font-size: 1em;
+    margin-left: -8px;
+    margin-right: -9px;
 }
 
 footer a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 footer a:hover{
-    color:white;
+    color:black;
     text-decoration: underline;
 }
