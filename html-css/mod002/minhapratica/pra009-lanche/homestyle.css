@@ -36,6 +36,22 @@ nav.cabeca {
     text-align: end;
 }
 
+a#conosco:hover{
+    color: black;
+    text-decoration: var(--under);
+}
+
+.botao{
+    
+    border: none;
+    color: black;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    
+    font-size: 16px;
+}
+
 nav.cabeca > a{
     color: rgba(220, 220, 220, 0.651);
     font-weight:lighter;
@@ -58,6 +74,7 @@ nav.comida > a{
     background-color: var(--cor5);
     margin: 10px;
     border-radius: 10px;
+    box-shadow:inset 5px 5px 5px rgba(0, 0, 0, 0.247);
 }
 
 nav.comida > a:hover{
