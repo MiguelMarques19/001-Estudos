@@ -93,7 +93,9 @@ nav.comida img{
 
 
 main{
-    background-color: var(--cor5);
+    background-image: url(imagens/cardapio-mcdonalds.webp);
+    width: 100%;
+    height: 1000px;
 
 }
 
