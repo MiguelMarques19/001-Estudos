@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+.parent{
+    display: grid;
+    grid: "header header header" 80px "main main sidebar" 200px "footer footer footer" 40px;
+}
+
+.child:nth-child(1){
+    grid-area: header;
+    background-color: blue;
+}
+
+.child:nth-child(2){
+    grid-area: main;
+    background-color: pink;
+}
+
+.child:nth-child(3){
+    grid-area: sidebar;
+    background-color: red;
+}
+
+.child:nth-child(4){
+    grid-area: footer;
+    background-color: yellow;
+}
