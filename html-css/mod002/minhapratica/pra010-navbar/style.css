@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1F2327;
+    padding-block: 15px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #fff;
+
+    
+}
+
+.logo{
+    margin-right: 50px;
+}
+
+.list{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+#toggler,
+.navbar label{
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .menu {
+        width: 100%;
+        max-height: 0;
+        overflow: hidden;
+    }
+
+.list{
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.navbar label {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+@toggler:checked ~ .menu {
+    max-height: 100%;
+}
