@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+}
+
+html, body { height: 100%; }
+
+@keyframes background{
+    100% { background-size: 4000px 1000px;}
+}
+
+body {
+    display: grid;
+    place-items: center;
+    margin: 0px;
+    padding: 0px 24px;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M 0%2c116 C 57.6%2c148.2 172.8%2c298.2 288%2c277 C 403.2%2c255.8 460.8%2c23.8 576%2c10 C 691.2%2c-3.8 748.8%2c189.2 864%2c208 C 979.2%2c226.8 1036.8%2c115.8 1152%2c104 C 1267.2%2c92.2 1382.4%2c140 1440%2c149L1440 560L0 560z' fill='%23184a7e'%3e%3c/path%3e%3cpath d='M 0%2c510 C 96%2c482.4 288%2c368.8 480%2c372 C 672%2c375.2 768%2c544.4 960%2c526 C 1152%2c507.6 1344%2c329.2 1440%2c280L1440 560L0 560z' fill='%232264ab'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    background-size: -500px 0px;
+    color: #f9f9f9;
+    font-family: "Euclid Circular A";
+    animation: background 10s infinite alternate linear;
+}
+
+@media (width >= 500px) {
+    body { padding: 0px; }
+}
+
+.login {
+    width: 90%;
+    padding: 70px 30px 44px;
+    border-radius: 22px;
+    background: #161616;
+    text-align: center;
+}
+
+@media (width >= 450px) {
+    .login { width: 380px; }
+}
+
+.avatar {
+    margin: 0 auto 16px;
+    border-radius: 50%;
+    background: linear-gradient(-45deg, #157ae1, #c7a1ff);
+    padding: 2px;
+    width: 120px;
+    height: 120px;
+}
+
+.avatar > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #161616;
+}
+
+.login > h2 {
+    font-size: 36px;
+    font-weight: 500;
+    margin: 0px 9px 4px;
+}
+
+.login > h3 {
+    color: rgba(255, 255, 255, 0.38);
+    margin: 0px 0px 30px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.login-form {
+    display: grid;
+    gap: 16px;
+    place-items: center;
+    width: 100%;
+    margin: 0px;
+}
+
+.textbox {
+    width: 100%;
+    position: relative;
+}
+
+.textbox span {
+    position: absolute;
+    top: 50%;
+    left: 16px;
+    translate: 0 -50%;
+    color: rgba(255,255,255, 0.38);
+}
+
+.login-form input,
+.login-form button {
+    width: 100%;
+    height: 60px;
+    outline: none;
+    padding: 0px;
+    font-family: inherit;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.login-form input {
+    background: transparent;
+    border: 2px solid rgba (255, 255, 255, 0.1);
+    font-size: 18px;
+    padding: 0px 20px 0px 50px;
+    color: inherit;
+}
+
+.login-form input:focus {
+    border-color: #157ae1;
+}
+
+.login-form input:focus ~ span {
+    color: #157ae1;
+}
+
+.login-form button {
+    cursor: pointer;
+    background: #167ae1;
+    color: #f9f9f9;
+    border: 0px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.login-form a {
+    color: #157ae1;
+    font-size: 16px;
+    text-align: left;
+    text-decoration: none;
+}
