@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+p {
+    display: none;
+}
+
+input:checked + .checkbox-wrapper {
+    color:blue;
+}
+
+input:checked + .checkbox-wrapper p {
+    display: block;
+}
