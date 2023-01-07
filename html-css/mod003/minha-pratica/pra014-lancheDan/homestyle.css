@@ -25,7 +25,7 @@ body {
 }
 
 header {
-  margin: 0px 0px -7px -8px;
+  margin: -8px 0px -7px 0px;
   height: 150px;
   width: 100%;
   background-color: var(--cor6);
@@ -38,7 +38,7 @@ header {
   flex-direction: row;
   justify-content: center;
   align-items: flex-end;
-  margin: -8px;
+  margin: 8px;
 }
 
 .containerhome > img {
@@ -88,10 +88,34 @@ main {
     
 }
 
+
+
 main img {
   
-  margin: 8px -8px 20px -10px;
+  margin: 8px 0px 20px 0px;
   width: 100%;
   height: 50%;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.418);
+}
+
+footer {
+  background-color: rgba(119, 64, 0, 0.904);
+}
+
+.containerfooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.childfooter {
+  
+}
+
+.childfooter > p {
+  font-size: 1.1em;
+  font-weight: lighter;
+  color:White;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.425);
 }
