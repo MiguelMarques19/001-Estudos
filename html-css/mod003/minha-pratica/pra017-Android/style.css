@@ -27,9 +27,59 @@
       font-family: var(--fonte-padrao);
   }
   
+body {
+    background-color: var(--cor0);
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 header {
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+    text-align: center;
+    padding-top: 40px;
+    min-height: 150px;
+}
 
+header h1 {
+    color: white;
+    margin-bottom: 25px;
+    font-family: var(--fonte-destaque);
+    font-weight: normal;
+    font-size: 3em;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+}
+
+header p {
+    color: white;
+    padding-bottom: 30px;
+    font-size: 1.2em;
+    font-family: var(--fonte-padrao);
+    margin: auto;
+    
+    max-width: 500px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.329);
+}
+
+nav {
+    background-color: #063d1e;
+    padding-bottom: 10px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.164);
+}
+
+nav a {
+    color: var(--cor1);
+    font-family: var(--fonte-padrao);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 7px;
+    margin-left: 15px;
+    transition-duration: 0.5s;
+}
+
+nav a:hover {
+    background-color: var(--cor3);
+    color: var(--cor5);
 }
 
 
