@@ -33,25 +33,29 @@
             text-align: center;
         }
 
+        .neg {
+            font-weight: bold;
+        }
+
     </style>
 </head>
 <body>
     <table>
         <thead>
             <tr class="titulo">
-                <th rowspan="2" class="centro">Áreas</th>
-                <th rowspan="2" class="centro">Disciplinas</th>
-                <th colspan="2" class="centro">Notas</th>
-                <th rowspan="2" class="centro">Média</th>
+                <th rowspan="2" class="centro" scope="col">Áreas</th>
+                <th rowspan="2" class="centro" scope="col">Disciplinas</th>
+                <th colspan="2" class="centro" scope="colgroup">Notas</th>
+                <th rowspan="2" class="centro" scope="col">Média</th>
             </tr>
             <tr  class="titulo">
-                <th class="centro">Nota 1</th>
-                <th class="centro">Nota 2</th>
+                <th class="centro" scope="col">Nota 1</th>
+                <th class="centro" scope="col">Nota 2</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <th rowspan="4" class="centro">Exatas</th>
+                <td rowspan="4" class="centro neg" scope="row">Exatas</td>
                 <td>Matemática</td>
                 <td class="num">0.0</td>
                 <td class="num">0.0</td>
@@ -81,7 +85,7 @@
             </tr>
 
             <tr>
-                <th rowspan="2" class="centro">Humanas</th>
+                <td rowspan="2" class="centro neg">Humanas</td>
                 <td>História</td>
                 <td class=num>0.0</td>
                 <td class=num>0.0</td>
@@ -94,7 +98,7 @@
                 <td class=num>0.0</td>
             </tr>
             <tr  class="titulo" class="centro">
-                <th colspan="4">Média de Humanas</th>
+                <th colspan="4" scope="row">Média de Humanas</th>
                 <td class=num>0.0</td>
             </tr>
         
