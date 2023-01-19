@@ -34,7 +34,15 @@
         background-color: lightgray;
       }
 
-      .num {
+      tbody > tr:nth-child(odd) { /* 2n-1 */
+        background-color: white;
+      }
+
+      tbody > tr:nth-child(even) { /* 2n  // odd = ímpar / even = par */
+        background-color: lightgray;
+      }
+
+      td.num {
         text-align: right;
       }
     </style>
