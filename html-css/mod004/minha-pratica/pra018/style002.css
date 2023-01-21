@@ -14,7 +14,7 @@ body {
     height: 100vh;
     width: 100vw;
     background-color: #8fb8de;
-    background-image: linear-gradient(120deg, #8FB8DE, #9B5094);
+    background-image: linear-gradient(120deg, #bcdcfa, #b443a9);
     display: flex;
     flex-direction: row;
     justify-content: center;
