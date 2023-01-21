@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(226, 226, 226);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align: center;
+
+}
+
+.container {
+    background-color: white;
+    border: 1px solid black;
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align: center;
+}
+
+.child {
+    display:
+}
+
+.flex {
+    display: inline-block;
+}
+
+.minu {
+    font-size: small;
+}
+
+    
