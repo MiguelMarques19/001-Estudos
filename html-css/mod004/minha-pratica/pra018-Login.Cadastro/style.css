@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+body {
+    
+    background-color: gray;
+}
+
+div {
+    height: 97vh;
+    width: 70vw;
+    background: darkgray url(imagens/sky-g0b44f27e8_1920.jpg) center center no-repeat fixed;
+    background-size: cover;
+    margin: -8px auto -20px -8px;
+}
+
+div.login {
+    background-color: white;
+    height: 300px;
+    width: 300px;
+}
