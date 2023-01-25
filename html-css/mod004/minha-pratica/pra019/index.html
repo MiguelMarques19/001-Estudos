@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        .container {
+            display: flex;
+            margin: -8px;
+        }
+
+        .card {
+            flex: 1;
+            overflow: hidden;
+        }
+
+        .card img {
+            object-fit: cover;
+            filter: grayscale(1)
+        }
+
+        .card:hover {
+            flex: 3;
+            transition-duration: 0.8s;
+        }
+
+        .card:hover img{
+            filter: none;
+        }
+
+
+        img {
+            height: 50vh;
+            width: 43vw;
+            border-collapse: separate;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="card">
+            <img src="imagens/car01.jpg" alt="Foto01">
+        </div>
+
+        <div class="card">
+            <img src="imagens/car02.jpeg" alt="Foto02">
+        </div>
+
+        <div class="card">
+            <img src="imagens/car03.webp" alt="Foto03">
+        </div>
+
+        <div class="card">
+            <img src="imagens/car04.webp" alt="Foto04">
+        </div>
+
+        <div class="card">
+            <img src="imagens/car05.jpg" alt="Foto05">
+        </div>
+
+
+    </div>
+</body>
+</html>
