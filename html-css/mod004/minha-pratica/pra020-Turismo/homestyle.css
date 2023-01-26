@@ -108,3 +108,55 @@ main a:hover {
     font-size: 4em;
     font-family: sans-serif;
 }
+
+nav {
+   
+}
+
+.container-nav01 {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: White;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.child-nav01 {
+    background-color: #db4242;
+    width: 1000px;
+    text-transform: uppercase;
+}
+
+.child-nav01 button {
+    background-color: white;
+    padding: 10px;
+    border: none;
+    color: #db4242;
+    font-size: 0.7em;
+    font-weight: bold;
+    margin-left: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+   
+
+}
+
+.child-nav01 span {
+   
+}
+
+.child-nav01 button:hover {
+    color: black;
+    transition-duration: 0.8s;
+}
+
+.container-nav02 {
+    display: flex;
+}
+
+.child-nav02 {
+    display: flex;
+}
