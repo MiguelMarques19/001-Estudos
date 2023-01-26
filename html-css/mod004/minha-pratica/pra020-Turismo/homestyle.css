@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 96vw;
+    height: 100vh;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+
+header {
+   
+    
+}
+
+.container-header01 {
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+   
+    
+}
+
+.header-content {
+    display: flex;
+    
+    align-items: center;
+}   
+
+.destinos {
+    display: flex;
+    margin: 0px 100px;
+}
+
+p {
+    margin: 20px;
+    font-weight: bold;
+    font-size: 1.1em;
+  
+}
+
+#logo {
+  margin: 0px 80px 0px -80px;
+}
+
+#banner {
+    width: 99vw;
+    margin-left: -8px;
+
+}
+
+.botao-header {
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #db4242;
+    border-color: #cc3535;
+    border: none;
+    padding: 13px 17px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.botao-header:hover {
+    background-color: #b32b2b;
+    transition-duration: 0.7s;
+}
+
+.botao-header > a {
+    text-decoration: none;
+    color: white;
+}
+
