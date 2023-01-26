@@ -2,8 +2,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    width: 96vw;
-    height: 100vh;
+
 }
 
 .material-symbols-outlined {
@@ -16,16 +15,14 @@ body {
 
 
 header {
-   
     
 }
 
 .container-header01 {
-    height: 20vh;
+    height: 14vh;
     display: flex;
     justify-content: space-around;
-   
-    
+    background-color: whitesmoke;
 }
 
 .header-content {
@@ -50,11 +47,6 @@ p {
   margin: 0px 80px 0px -80px;
 }
 
-#banner {
-    width: 99vw;
-    margin-left: -8px;
-
-}
 
 .botao-header {
     font-weight: bolder;
@@ -78,3 +70,41 @@ p {
     color: white;
 }
 
+
+#banner {
+    background-image: url(imagens/banner-europa.jpg);
+    height: 568px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo-banner {
+    display: block;
+    text-align: center;
+}
+.titulo-banner > p, h2 {
+    color: black;
+    margin-left: 70px;
+}
+
+.titulo-banner a {
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+.titulo-banner > p, a {
+    font-weight: lighter;
+}
+
+.titulo-banner > h2 {
+    margin-top: 0px;
+    font-weight:900;
+    font-size: 4em;
+    font-family: sans-serif;
+}
