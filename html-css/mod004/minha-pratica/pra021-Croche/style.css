@@ -35,6 +35,10 @@ body  {
     font-weight: bold;
 }
 
+.globo:hover {
+    color: rgb(89, 166, 255);
+}
+
 .g1 {
     color: rgb(163, 0, 0);
     font-weight: bold;
@@ -54,6 +58,7 @@ body  {
     color: rgb(255, 13, 13);
     font-weight: bold;
 }
+
 
 .child-header01 button {
     color: rgba(95, 95, 95, 0.788);
