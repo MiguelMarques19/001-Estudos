@@ -144,3 +144,24 @@ input:hover, select:hover {
     transition-duration: 0.7s;
     color: gray;
 }
+
+main {
+    text-align: center;
+    text-align: justify;
+}
+
+article {
+    background-color: rgba(0, 0, 255, 0.144);
+    width: 50vw;
+}
+
+.center {
+    text-align: center;
+}
+
+.container-main01 {
+    background-color: rgba(255, 0, 0, 0.212);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
