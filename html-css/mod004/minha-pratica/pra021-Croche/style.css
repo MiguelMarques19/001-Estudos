@@ -61,6 +61,7 @@ body  {
 
 
 .child-header01 button {
+    font-size: 0.7em;
     color: rgba(95, 95, 95, 0.788);
     border: 1px solid rgba(128, 128, 128, 0.185);
     background-color: white;
@@ -77,10 +78,12 @@ body  {
 }
 
 .container-header02 {
-    background-color: rgb(214, 40, 40);
+    background-color: #C4170C;
     width: 100vw;
+    height: 10vh;
     display: flex;
     justify-content: space-between;
+    
 }
 
 .child-header02 {
@@ -91,10 +94,53 @@ body  {
 .child-header02 a {
     margin: 0px 10px;
     text-decoration: none;
-    color: white;
 }
 
 .lighter a{
     color: white;
     font-weight: lighter;
+    font-size: 1.7em;
+}
+
+.header-menu{
+    color: white;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.menup {
+    margin-left: 50px;
+}
+
+.header-g1 {
+    color: white;
+    font-weight: bold;
+    font-size: 2.3em;
+}
+
+.header-search {
+    color: white;
+    border: none;
+    background-color: #A7140A;
+    padding: 10px 5px;
+    margin-right: 100px;
+    border-radius: 5px;
+}
+
+.header-search input:hover {
+    color: black;
+}
+
+.header-search::placeholder {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+input:hover, select:hover {
+    border: none;
+    border-color: transparent;
+    background-color: white;
+    transition-duration: 0.7s;
+    color: gray;
 }
