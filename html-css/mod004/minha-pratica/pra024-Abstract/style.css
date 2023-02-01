@@ -1,1 +1,53 @@
 @charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.3em;
+    margin: 0px;
+}
+
+abbr {
+    text-decoration: none;
+}
+
+header {
+    font-size: 1.2em;
+    margin: 0px;
+}
+
+nav.container {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000000;
+}
+
+.child {
+    color: white;
+    margin: 100px;
+}
+
+.child a {
+    color: white;
+    text-decoration: none;
+}
+
+.help-center:hover {
+    text-decoration: underline;
+}
+
+.abs {
+    -webkit-transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -o-transition: all 0.7s ease;
+    -ms-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+
+.abs:hover {
+    color: rgb(141, 141, 141);
+    transition-duration: 0.3s;
+    
+}

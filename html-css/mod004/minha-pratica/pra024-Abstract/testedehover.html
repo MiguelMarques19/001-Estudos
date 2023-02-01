@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando hover</title>
+    <style>
+        h1 {
+            color: green;
+        }
+  
+        .div1 {
+            padding: 20px;
+            background: green;
+            border-radius: 0px;
+            cursor: pointer;
+            color: white;
+            text-align: center;
+            transition-duration: 5s;
+            height: 100px;
+            width: 200px;
+            -webkit-transition: all 1s ease;
+            -moz-transition: all 1s ease;
+            -o-transition: all 1s ease;
+            -ms-transition: all 1s ease;
+            transition: all 1s ease;
+        }
+          
+        .div1:hover {
+            background: #ff7b29;
+            border-radius: 30px;
+            transform: scale(1.5);
+        }
+    </style>
+</head>
+<body>
+    <h1>GeeksforGeeks</h1>
+    <p>Animation and reverse animation</p>
+    <div class="div1">
+        <h3>A Computer Science Portal for Geeks</h3>
+    </div>
+</body>
+</html>
