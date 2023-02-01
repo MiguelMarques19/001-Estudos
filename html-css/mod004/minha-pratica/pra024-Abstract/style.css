@@ -17,7 +17,7 @@ header {
 }
 
 nav.container {
-    height: 15vh;
+    height: 14vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -38,6 +38,10 @@ nav.container {
     text-decoration: underline;
 }
 
+.palito {
+    font-weight: lighter;
+}
+
 .abs {
     -webkit-transition: all 0.7s ease;
     -moz-transition: all 0.7s ease;
@@ -48,6 +52,48 @@ nav.container {
 
 .abs:hover {
     color: rgb(141, 141, 141);
-    transition-duration: 0.3s;
-    
+    transition-duration: 0.3s;    
+}
+
+#submit {
+    cursor: pointer;
+    font-weight: lighter;
+    font-size: 0.7em;
+    color: white;
+    background-color: #020202;
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: 1px solid;
+    -webkit-transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -o-transition: all 0.7s ease;
+    -ms-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    margin-right: 3px;
+}
+
+#submit:hover {
+    transform: scale(1.1);
+}
+
+#sign-in {
+    cursor: pointer;
+    font-weight: lighter;
+    font-size: 0.7em;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+    background-color: #4C5FD5;
+    border: none;
+    -webkit-transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -o-transition: all 0.7s ease;
+    -ms-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+
+#sign-in:hover {
+    background-color: #ffff;
+    color: black;
+    transform: scale(1.15);
 }
