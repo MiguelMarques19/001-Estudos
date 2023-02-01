@@ -27,6 +27,7 @@ nav.container {
 .child {
     color: white;
     margin: 100px;
+    margin-bottom: 125px;
 }
 
 .child a {
@@ -38,9 +39,6 @@ nav.container {
     text-decoration: underline;
 }
 
-.palito {
-    font-weight: lighter;
-}
 
 .abs {
     -webkit-transition: all 0.7s ease;
@@ -127,10 +125,16 @@ section {
 }
 
 #search {
+    font-size: 0.9em;
     font-weight: bold;
     margin-bottom: 70px;
     height: 7vh;
     width: 40vw;
     border-radius: 3px;
     border: 1px solid rgb(87, 87, 87);
+}
+
+#search:hover {
+    transition-duration: 0.1s;
+    border: 2px solid #000000;
 }
