@@ -69,7 +69,7 @@ nav.container {
     -o-transition: all 0.7s ease;
     -ms-transition: all 0.7s ease;
     transition: all 0.7s ease;
-    margin-right: 3px;
+    margin-right: 10px;
 }
 
 #submit:hover {
@@ -80,8 +80,8 @@ nav.container {
     cursor: pointer;
     font-weight: lighter;
     font-size: 0.7em;
-    color: white;
-    padding: 10px 25px;
+    color: #ffff;
+    padding: 11px 25px;
     border-radius: 5px;
     background-color: #4C5FD5;
     border: none;
@@ -96,4 +96,41 @@ nav.container {
     background-color: #ffff;
     color: black;
     transform: scale(1.15);
+}
+
+main {
+    
+}
+
+section {
+    margin-top: -26px;
+    height: 35vh;
+    background-color: #dadbf1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#container-section {
+    
+}
+
+.child-section {
+
+}
+
+#sec-tit {
+    font-weight: lighter;
+    font-size: 2.7em;
+    margin-bottom: 15px;
+}
+
+#search {
+    font-weight: bold;
+    margin-bottom: 70px;
+    height: 7vh;
+    width: 40vw;
+    border-radius: 3px;
+    border: 1px solid rgb(87, 87, 87);
 }
