@@ -97,7 +97,7 @@ nav.container {
 }
 
 main {
-    
+    margin-bottom: 3%;
 }
 
 section {
@@ -156,8 +156,8 @@ article {
 }
 
 .art {
-    width: 370px;
-    margin: 30px 50px;
+    width: 430px;
+    margin: 6% 5% 0% 11%;
    
 }
 
@@ -187,4 +187,20 @@ main img {
 
 .box {
     display: flex;
+}
+
+footer {
+    font-size: 0.7em;
+    background-color: #000000;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-child {
+}
+
+footer li {
+    list-style-type: none;
+    margin-left: -40px;
 }
