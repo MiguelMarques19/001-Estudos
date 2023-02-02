@@ -136,7 +136,7 @@ section {
 
 #search:hover {
     transition-duration: 0.1s;
-    border: 2px solid #000000;
+    border: 2px solid rgb(80, 80, 255);
 }
 
 article {
@@ -148,7 +148,7 @@ article {
     display: block;
     align-items: center;
     justify-content: center;
-    margin: 50px auto;
+    margin: 50px 22%;
 }
 
 .line {
@@ -156,6 +156,35 @@ article {
 }
 
 .art {
-    width: 400px;
-    margin: 30px;
+    width: 370px;
+    margin: 30px 50px;
+   
+}
+
+main a {
+    color: rgb(101, 101, 255);
+    text-decoration: none;
+}
+
+main a:hover {
+    text-decoration: underline;
+    color: rgb(0, 0, 255);
+}
+
+main img {
+    height: 70px;
+    width: 70px;
+    border: 0;
+    margin-left: -70px;
+    margin-right: 0px;
+    
+}
+
+.icon {
+    margin-left: -80px;
+    padding-right: 10px;
+}
+
+.box {
+    display: flex;
 }
