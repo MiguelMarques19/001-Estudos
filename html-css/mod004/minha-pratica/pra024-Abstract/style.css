@@ -195,6 +195,7 @@ footer {
     color: white;
     display: flex;
     justify-content: space-evenly;
+    font-weight: lighter;
 }
 
 .footer-child {
@@ -203,4 +204,14 @@ footer {
 footer li {
     list-style-type: none;
     margin-left: -40px;
+    margin-bottom: 5px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
