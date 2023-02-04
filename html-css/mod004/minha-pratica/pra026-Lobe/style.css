@@ -7,6 +7,73 @@
     --cor04: #767676;
 }
 
-h1 {
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+header {
+
+}
+
+#container-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 10vh;
     
+}
+
+.child-nav {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.child-nav a {
+    text-decoration: none;
+}
+
+#lobe-btn {
+    color: var(--cor02);
+    font-size: 1.3em;
+}
+
+#button-download {
+    cursor: pointer;
+    font-size: 0.9em;
+    font-weight: bold;
+    border: none;
+    background-color: var(--cor01);
+    border-radius: 30px;
+    padding: 15px 30px;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+    -ms-transition: all 0.6s ease;
+    transition: .2s ease-in-out;
+}
+
+#button-download a {
+    color: var(--cor03);
+}
+
+#button-download:hover {
+    margin: -3.9px;
+    font-size: 1em;
+    transform: scale(1);
+}
+
+.nav-btn a{
+    color: rgb(161, 161, 161);
+    margin: 0px 20px;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+    -ms-transition: all 0.6s ease;
+    transition: .2s ease-in-out;
+}
+
+.nav-btn a:hover {
+    color: var(--cor02);
+    transform: scale(2);
 }
